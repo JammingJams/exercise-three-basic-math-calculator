@@ -8,11 +8,6 @@ public class MathApp {
         //int n1 = 5;
         //int n2 = 12;
 
-        String a = "A";
-        String s = "S";
-        String m = "M";
-        String d = "D";
-
         Scanner keyboard = new Scanner(System.in);
         System.out.print("What is your first number?: ");
         int n1 = keyboard.nextInt();
