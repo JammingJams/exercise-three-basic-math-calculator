@@ -20,26 +20,25 @@ public class MathApp {
         System.out.print("What is your second number?: ");
         int n2 = keyboard.nextInt();
 
-        System.out.print("Please enter your letter: ");
+        System.out.print("Please enter your operator: ");
         keyboard.nextLine();
         String multname = keyboard.nextLine();
 
 
         if (multname.equals("A")) {
-            System.out.println(n1 + n2);
+            System.out.printf("%d + %d = %d", n1, n2, n1 + n2);
         }
         else if (multname.equals("S")) {
-            System.out.println(n1 - n2);
-        }
+            System.out.printf("%d - %d = %d", n1, n2, n1 - n2);        }
         else if (multname.equals("M")) {
-            System.out.println(n1 * n2);
+            System.out.printf("%d * %d = %d", n1, n2, n1 * n2);
         }
         else if (multname.equals("D")) {
-            System.out.println(n1 / n2);
+            System.out.printf("%d / %d = %d", n1, n2, n1 / n2);
         }
         else {
-            System.out.println("Invalid response");}
-        System.out.println("Thank you for your submission");
+            System.out.println("\nInvalid response");}
+        System.out.println("\nThank you for your submission");
 
 
 
